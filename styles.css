@@ -1,0 +1,78 @@
+.fruit{
+  display: flex;
+  justify-content: center;
+}
+.fruit img{
+  width: 450px;
+  height: 450px;
+  padding: 25px;
+}
+
+.about{
+  text-align: center
+}
+.juicy{
+  text-align: center;
+  padding-top: 15px;
+}
+.vegetables{
+  display: flex;
+  justify-content: center;
+}
+
+.vegetables img{
+  width: 450px;
+  height: 450px;
+  padding: 25px;
+}
+
+.fresh{
+  text-align: center;
+  padding-top: 25px;
+}
+
+p{
+  font-size: 30px;
+}
+
+body{
+  font-family: cursive;
+  background-color: green;
+}
+
+nav{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 0;
+  margin-right: 0%;
+}
+
+nav>ul{
+  text-align: right;
+}
+
+nav>ul>li{
+  display: inline-block;
+}
+
+nav>ul>li>a{
+  margin-top: 10px;
+  padding: 10px;
+  margin-right: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: purple;
+  font-size: 25px;
+}
+
+.header{
+  text-align: center;
+  font-size: 80px;
+  margin-top: 5%;
+  color: brown;
+}
+
+footer{
+text-align: center;
+}
