@@ -1,15 +1,20 @@
+.navbar{
+  background-color: lightcoral;
+  padding: 0px;
+ text-align: right;
+}
 .fruit{
   display: flex;
   justify-content: center;
+  background-color: gray;
 }
 .fruit img{
   width: 450px;
-  height: 450px;
+  height: 200px;
   padding: 25px;
 }
-
 .about{
-  text-align: center
+  text-align: center;
 }
 .juicy{
   text-align: center;
@@ -18,43 +23,38 @@
 .vegetables{
   display: flex;
   justify-content: center;
+  background-color: lightcoral;
 }
-
 .vegetables img{
   width: 450px;
-  height: 450px;
+  height: 200px;
   padding: 25px;
 }
-
 .fresh{
   text-align: center;
   padding-top: 25px;
 }
-
 p{
-  font-size: 30px;
+  font-size: 20px;
+  padding:0%;
 }
-
 body{
   font-family: cursive;
   background-color: green;
+  padding-top: opx;
 }
-
-nav{
+/* nav{
   max-width: 960px;
   margin: 0 auto;
   padding: 10px 0;
-  margin-right: 0%;
+  margin-right: 0%; */
 }
-
 nav>ul{
   text-align: right;
 }
-
 nav>ul>li{
   display: inline-block;
 }
-
 nav>ul>li>a{
   margin-top: 10px;
   padding: 10px;
@@ -65,14 +65,42 @@ nav>ul>li>a{
   color: purple;
   font-size: 25px;
 }
-
 .header{
-  text-align: center;
-  font-size: 80px;
+  display: flex;
+  flex-direction: row;
+  font-size:30px;
   margin-top: 5%;
+  background-color: lightslategray;
   color: brown;
 }
-
 footer{
 text-align: center;
+}
+h1{
+  padding-left: 17%;
+}
+.header img{
+  padding:5px;
+  border-radius: 12%;
+}
+h2{
+  color: aliceblue;
+}
+h3{
+  color: bisque;
+}
+footer{
+  background-color: lightslategrey;
+}
+.about_us{
+  margin: 20% 20% 10% 20%;
+  background-color: olive;
+}
+.about_us p{
+  font-size: 60px;
+color: brown;
+padding-right: 1px;
+}
+h4{
+  color: white;
 }
